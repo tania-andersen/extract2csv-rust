@@ -10,10 +10,7 @@ fn main() -> io::Result<()> {
     let mut args: Vec<String> = env::args().collect();
     for i in 0..args.len() {
         // Prefix regex expression with (?ms) for "multiline" and "dot matches all".
-        let mut prefix = "(?ms)".to_owned();
-        args[i] = args[i].replace("*", "(.*?)");
-        prefix.push_str(&args[i]);
-        args[i] = prefix;
+        args[i] = "(?ms)".to_owned() + &args[i].replace("*", "(.*?)");
     }
     let dir = env::current_dir()?;
     let mut files_in_dir: Vec<PathBuf> = Vec::new();
@@ -69,35 +66,19 @@ fn main() -> io::Result<()> {
 #[test]
 fn simple_usecase_test() {
     let here = env::current_dir();
-    let here = match here {
-        Ok(dir) => dir,
-        Err(error) => panic!("Cannot get dir: {:?}", error),
-    };
+    let here = here.expect("Cannot get dir");
     println!("You are here: {:?}", here);
-    let copy_ok = fs::copy("target\\debug\\extract2csv.exe", "tests\\extract2csv.exe");
-    match copy_ok {
-        Ok(_) => (),
-        Err(error) => panic!("Cannot copy program to test folder: {:?}", error),
-    }
-    let cd_ok = env::set_current_dir("tests");
-    match cd_ok {
-        Ok(_) => (),
-        Err(error) => panic!("Cannot change directory to tests folder: {:?}", error),
-    }
+    fs::copy("target\\debug\\extract2csv.exe", "tests\\extract2csv.exe")
+        .expect("Cannot copy program to test folder");
+    env::set_current_dir("tests").expect("Cannot change directory to tests folder");
     let output = std::process::Command::new(".\\extract2csv.exe")
         .arg("Tidspunkt for indberetningen*Referencenummer")
         .arg("virksomhedens navn*Afdeling")
         .arg("Beskriv hændelsen*Hvor fandt hændelsen fysisk sted")
         .output();
-    match output {
-        Ok(_) => (),
-        Err(error) => panic!("Cannot run program: {:?}", error),
-    };
+    output.expect("Cannot run program");
     let file_content = fs::read_to_string(DEFAULT_OUT_FILENAME);
-    let file_content = match file_content {
-        Ok(file_content) => file_content,
-        Err(error) => panic!("Cannot open output file: {:?}", error),
-    };
+    let file_content = file_content.expect("Cannot open output file");
     assert!(
         file_content.contains("2019-442-2007.PDF.txt"),
         "Missing field"
