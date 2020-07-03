@@ -1,0 +1,759 @@
+Skema til indberetning af sikkerhedshændelser
+
+Identifikation
+Tidspunkt for indberetningen
+torsdag november 7, 2019 09:32:32
+
+Referencenummer
+2bba65fe61ff99526b4d5f0dad4359a29dabe8fd
+
+Anmelderinformation
+Anmelders navn
+#### ####### ####
+Anmelders UID
+CVR:#######-RID:#########
+
+Identifikation af sikkerhedshændelsen
+Er dette en uddybning af en tidligere anmeldelse?
+Ja
+Nej
+
+Oplysninger om indberetter
+CVR
+29189633
+Myndighedens/virksomhedens navn
+Skanderborg kommune
+Afdeling
+
+Adresse
+Skanderborg Fælled 1, 8660 Skanderborg
+Kontaktperson (navn og titel)
+#### ######## ####
+E-mail på kontaktperson
+####################
+Telefonnummer på kontaktperson
+########
+Er udenlandsk telefonnummer
+Internt referencenummer
+
+Indberetning på en andens vegne
+Indberetter du på en andens vegne? (Eksempelvis den dataansvarlige)
+Ja
+Nej
+
+Skema til indberetning af sikkerhedshændelser
+
+1/8
+
+Skema til indberetning af sikkerhedshændelser
+
+Valg af modtager
+Hvilken hændelse ønsker du at indberette?
+Hændelse vedrørende den finansielle sektor
+Hændelse vedrørende persondata
+Hændelse vedrørende samfundskritisk infrastruktur
+Frivillig indberetning af hændelser i øvrige sektorer til Center for Cybersikkerhed
+Større brud på it-sikkerheden i en offentlig myndighed
+
+Hændelse vedrørende persondata
+Hvem ønsker du at indberette til?
+Jeg ønsker at indberette til Datatilsynet
+Jeg ønsker at indberette til Erhvervsstyrelsen, da jeg er et teleselskab, fiberselskab, internetudbyder eller lignende udbyder af en offentligt tilgængelige elektronisk
+kommunikationstjenester og hændelsen relaterer sig til udbuddet af denne tjeneste
+
+Bemærk: Hvis du ønsker at klage til Datatilsynet over andres behandling af dine personoplysninger, skal du klage gennem Datatilsynets ordning, se mere her:
+https://www.datatilsynet.dk/generelt-om-databeskyttelse/klage-til-datatilsynet
+
+Valgte myndigheder
+Ud fra ovenstående valg vil din indberetning blive sendt til følgende:
+Datatilsynet
+
+Når du indberetter en sikkerhedshændelse, angiver du selv, hvilke myndigheder, der skal modtage din
+indberetning. Du kan læse mere om disse myndigheders behandling af dine oplysninger på dette link:
+https://indberet.virk.dk/myndigheder/stat/ERST/Indberetning_af_brud_paa_sikkerhed#tab5
+
+Årsag til hændelsen / hvad er der sket
+Beskriv hændelsen
+I Aula visespå den enkelte brugers brugerprofiler billeder fra KMDs elevadministrative systemer via snitflader indeholdende statuskoder for deling af billeder (samtykker).
+Hver enkelt billede bliver sendt fra KMD med en visningskode, og hvis denne kode er 3, må billedet ikke vises i Aula. Ved en fejl ifm. indlæsning af billederne er der ikke
+taget højde for denne kode, hvilket har betydet, at brugere i Aula har fået vist profilbilleder, der ikke har været det fornødne samtykke til at vise.
+
+Hvor fandt hændelsen fysisk sted
+Adresse
+Grønningen 17, 1270 København (KOMBIT)
+Samme som virksomheden
+Ved ikke
+Andet
+
+Skema til indberetning af sikkerhedshændelser
+
+2/8
+
+Skema til indberetning af sikkerhedshændelser
+Karakteren af sikkerhedsbruddet
+Angiv karakteren af hændelsen
+Tyveri, kopiering eller bortkomst af medie
+Hacking
+Malware (f.eks. virus, ransomware, spyware)
+Phishing
+DoS
+Eksponering af urigtige oplysninger
+Utilsigtet videregivelse
+Utilsigtet adgang
+Ved ikke
+Andet
+
+Involveret teknologi
+IT-udstyr
+Server (fx web, email, netværk)
+Personlig computer (fx bærbar, stationær, tablet)
+Mobiltelefon
+Lagerenhed (fx USB stick, SD kort, CD)
+Telenetværk
+Ved ikke
+Kommunikation
+Email
+SMS
+Internetbaseret (fx iMessage, Skype, WhatsApp, Signal)
+Sociale medier
+Browser
+Ved ikke
+Overførsel og lagring af data
+Cloud
+FTP
+Peer-to-peer (P2P)
+Ved ikke
+Andet
+
+Type af hændelse
+Er der sket uberettiget offentliggørelse/videregivelse af personoplysninger?
+Ja
+Nej
+Har der været uberettiget adgang til personoplysninger?
+Ja
+Nej
+Er der sket ændring af personoplysninger?
+Ja
+Nej
+Er der sket tilintetgørelse af personoplysninger?
+Ja
+Nej
+Er der sket tab af personoplysninger?
+Ja
+Nej
+Yderligere oplysninger
+
+Skema til indberetning af sikkerhedshændelser
+
+3/8
+
+Skema til indberetning af sikkerhedshændelser
+
+Type af personoplysninger, der er berørt af hændelsen
+Hvilke personoplysninger er berørt af hændelsen? – Sæt kryds ud for ét eller flere af følgende valgmuligheder
+Navn
+Fødselsdato
+Kontaktoplysninger
+Personnummer (cpr-nr.)
+Økonomiske forhold
+Lokationsdata
+Strafbare forhold
+Betalingsoplysninger (kreditkort mv.)
+IP-adresse
+Race
+Etnicitet
+Politisk tilhørsforhold
+Religiøs eller filosofisk overbevisning
+Fagforeningsmæssigt tilhørsforhold
+Seksuelle forhold eller orientering
+Helbredsoplysninger
+Genetiske data
+Biometriske data
+Endnu uvist
+Andet
+Beskriv
+Portrætbilleder af børn
+
+Tidslinje
+Dato og tidspunkt for hændelsens start
+Jeg kender det præcise tidspunkt for hændelsens start
+Andet
+Ved ikke
+Andet
+20. oktober 2019
+Hvad skete der på dette tidspunkt?
+Billederne overføres til AULA
+
+Dato og tidspunkt for hændelsens afslutning
+Jeg kender det præcise tidspunkt for hændelsens afslutning
+Andet
+Er ikke afsluttet
+Ved ikke
+Dato og tidspunkt
+mandag november 4, 2019 15:16:00
+Hvad skete der på dette tidspunkt?
+Billederne fjernes fra AULA
+
+Dato og tidspunkt for hændelsens konstatering
+Jeg kender det præcise tidspunkt for hændelsens konstatering
+Andet
+Ved ikke
+Dato og tidspunkt
+mandag november 4, 2019 13:13:00
+
+Skema til indberetning af sikkerhedshændelser
+
+4/8
+
+Skema til indberetning af sikkerhedshændelser
+Hvad skete der på dette tidspunkt?
+Ifm en afklaring omkring brug af billeder i Aula blev Netcompany opmærksomme på, at der kunne være en teknisk fejl i den måde profilbilleder blev indlæst på.
+Angiv sammenlagt varighed af hændelsen
+15 dage
+Er der modtaget underretning om hændelsen fra en databehandler eller udbyder af digitale tjenester?
+Ja
+Nej
+Ved ikke
+Angiv dato og tidspunkt for underretningen
+tirsdag november 5, 2019 14:53:00
+
+Øvrige involverede i hændelsen (databehandlere, underleverandører, mv.)
+Er der involveret databehandlere eller lignende?
+Ja
+Nej
+Ved ikke
+For at tilføje flere databehandlere, klik da på
+
+Angiv type
+Databehandler efter Databeskyttelsesforordningen
+CVR
+19435075
+Databehandlerens navn
+KOMBIT A/S
+Adresse
+Halfdansgade 8, 2300 København S
+Kontaktperson hos databehandleren
+DPO ########### ####
+E-mail på kontaktperson
+#################
+Telefonnummer på kontaktperson
+########
+Er udenlandsk telefonnummer
+Angiv type
+Underleverandør
+CVR
+14814833
+Databehandlerens navn
+Netcompany A/S
+Adresse
+Grønningen 17, 1., 1270 København K
+Kontaktperson hos databehandleren
+###### #### #########
+
+Skema til indberetning af sikkerhedshændelser
+
+5/8
+
+Skema til indberetning af sikkerhedshændelser
+E-mail på kontaktperson
+##################
+Telefonnummer på kontaktperson
+########
+Er udenlandsk telefonnummer
+
+Databeskyttelsesrådgiver
+Er der udpeget en databeskyttelsesrådgiver?
+Ja
+Nej
+Ved ikke
+Navn på evt. databeskyttelsesrådgiver (DPO)
+Bech-Bruun Advokatpartnerselskab
+E-mail på DPO
+######################
+Telefonnummer på DPO
+########
+Er udenlandsk telefonnummer
+Evt. andre aktører involveret i håndteringen af hændelsen (f.eks. Center for Cybersikkerhed, politiet etc.)
+
+Omfang
+Angiv hvilke personer, der har været berørt af hændelsen – sæt kryds ud for ét eller flere af følgende valgmuligheder
+
+Medarbejdere
+Brugere
+Abonnenter
+Elever
+Kunder
+Patienter
+Mindreårige (under 18 år)
+Borgere
+Juridiske personer (virksomheder / organisationer)
+Andre
+Endnu uvist
+
+Angiv samlet antal
+153
+Er antallet et skøn/overslag?
+Ja
+Nej
+Øvrige oplysninger om omfanget
+
+Grænseoverskridende hændelser
+
+Skema til indberetning af sikkerhedshændelser
+
+6/8
+
+Skema til indberetning af sikkerhedshændelser
+Omfatter hændelsen behandling af personoplysninger, der udføres i flere EU/EØS lande?
+Ja
+Nej
+Påvirker hændelsen/kan hændelsen påvirke personer i mere end et EU/EØS land?
+Ja
+Nej
+Vurderes hændelsen at have væsentlige konsekvenser for tjenester i andre EU- eller EØS- lande?
+Ja
+Nej
+
+Konsekvenser
+
+Sandsynlige konsekvenser af hændelsen for hhv. personer, virksomheder og tjenester
+Brud på fortrolighed
+Videregivelse af større mængde oplysninger end nødvendigt
+Videregivelse af oplysninger, som ikke er omfattet af de berørtes udtrykkelige samtykke
+Utilsigtet videregivelse af oplysninger, der er linket til andre oplysninger om de berørte
+Oplysningerne kan blive misbrugt til andre eller ulovlige formål
+Andre konsekvenser som følge af brud på fortrolighed
+Ingen af ovenstående
+Brud på integritet
+Oplysningerne kan være blevet ændret og brugt, selvom oplysningerne ikke længere er valide
+Oplysningerne kan være blevet omdannet til andre valide data, og brugt til andre formål
+Andre konsekvenser som følge af brud på integritet
+Ingen af ovenstående
+Brud på tilgængeligheden
+Manglende evne til at yde afgørende hjælp til dem som er berørt af hændelsen
+Ændringer i muligheden for at yde afgørende hjælp til de berørte
+Manglende kontinuitet
+Andre konsekvenser som følge af brud på tilgængeligheden
+Ingen af ovenstående
+Brud på autenticiteten
+Manglende evne til at sikre tilliden til, at en meddelelse stammer fra den afsender, den påstås at være fra
+Andre konsekvenser som følge af brud på autenticiteten
+Ingen af ovenstående
+Fysisk, materiel eller immateriel skade med betydelige konsekvenser for den berørte
+Mistet kontrol over egne oplysninger
+Begrænset i sine rettigheder
+Udsat for diskrimination
+Udsat for identitetstyveri
+Udsat for bedrageri
+Lidt økonomisk tab
+Skade på omdømme
+Andre konsekvenser for de berørte
+Ingen af ovenstående
+Uddybende oplysninger
+
+Håndtering
+
+Foranstaltninger af teknisk og organisatorisk karakter, der er truffet på baggrund af hændelsen
+
+Skema til indberetning af sikkerhedshændelser
+
+7/8
+
+Skema til indberetning af sikkerhedshændelser
+Foranstaltninger, der er truffet for at standse bruddet
+Alle berørte profilbilleder er slettet i AULA.
+Angiv dato
+04/11/2019
+Hvem har foretaget foranstaltningerne?
+Indberetter
+Databehandler
+Andre
+Foranstaltninger, der er truffet mhp. at begrænse den skade, som den/de registrerede evt. har lidt
+Billederne blev slettet hurtigst muligt.
+Angiv dato
+04/11/2019
+Hvem har foretaget foranstaltningerne?
+Indberetter
+Databehandler
+Andre
+
+Underretning
+Kommunikation med de berørte personer / kunder
+Er de berørte personer blevet underrettet?
+Ikke endnu, men underretning vil ske
+Nej, underretning vil ikke ske
+Det er endnu ikke besluttet
+Ja delvist
+Ja, alle er underrettet
+Hvornår vil underretning ske, hvis de berørte personer endnu ikke er blevet
+underrettet?
+
+Endnu uvist
+Hvilken metode er eller vil blive anvendt til at underrette de berørte personer (f.eks. e-mail, fysisk brev, den dataansvarliges hjemmeside etc.)?
+E-mail
+Fysisk brev
+Telefonisk / personligt
+Hjemmeside/Web
+SMS
+E-boks
+Indhold af underretningen til de berørte personer
+Indberettes snarest
+Eventuel vedhæftning
+Er offentligheden blevet informeret om hændelsen?
+Ja
+Nej
+
+Skema til indberetning af sikkerhedshændelser
+
+8/8
+
+Skema til indberetning af sikkerhedshændelser
+
+Identifikation
+Tidspunkt for indberetningen
+fredag november 15, 2019 08:27:28
+
+Referencenummer
+35d02a22a5383481829e894526b36927ee14de00
+
+Anmelderinformation
+Anmelders navn
+#### ##### ####
+Anmelders UID
+CVR:########-RID:########
+
+Identifikation af sikkerhedshændelsen
+Er dette en uddybning af en tidligere anmeldelse?
+Ja
+Nej
+
+Indtast referencenummer for tidligere blanket
+2bba65fe61ff99526b4d5f0dad4359a29dabe8fd
+
+Oplysninger om indberetter
+CVR
+29189633
+Myndighedens/virksomhedens navn
+Skanderborg kommune
+Afdeling
+
+Adresse
+Skanderborg Fælled 1, 8660 Skanderborg
+Kontaktperson (navn og titel)
+#### ###### ##########
+E-mail på kontaktperson
+#######################
+Telefonnummer på kontaktperson
+########
+Er udenlandsk telefonnummer
+Internt referencenummer
+
+Indberetning på en andens vegne
+Indberetter du på en andens vegne? (Eksempelvis den dataansvarlige)
+Ja
+Nej
+
+Skema til indberetning af sikkerhedshændelser
+
+1/7
+
+Skema til indberetning af sikkerhedshændelser
+
+Valg af modtager
+Hvilken hændelse ønsker du at indberette?
+Hændelse vedrørende den finansielle sektor
+Hændelse vedrørende persondata
+Hændelse vedrørende samfundskritisk infrastruktur
+Frivillig indberetning af hændelser i øvrige sektorer til Center for Cybersikkerhed
+Større brud på it-sikkerheden i en offentlig myndighed
+
+Hændelse vedrørende persondata
+Hvem ønsker du at indberette til?
+Jeg ønsker at indberette til Datatilsynet
+Jeg ønsker at indberette til Erhvervsstyrelsen, da jeg er et teleselskab, fiberselskab, internetudbyder eller lignende udbyder af en offentligt tilgængelige elektronisk
+kommunikationstjenester og hændelsen relaterer sig til udbuddet af denne tjeneste
+
+Bemærk: Hvis du ønsker at klage til Datatilsynet over andres behandling af dine personoplysninger, skal du klage gennem Datatilsynets ordning, se mere her:
+https://www.datatilsynet.dk/generelt-om-databeskyttelse/klage-til-datatilsynet
+
+Valgte myndigheder
+Ud fra ovenstående valg vil din indberetning blive sendt til følgende:
+Datatilsynet
+
+Når du indberetter en sikkerhedshændelse, angiver du selv, hvilke myndigheder, der skal modtage din
+indberetning. Du kan læse mere om disse myndigheders behandling af dine oplysninger på dette link:
+https://indberet.virk.dk/myndigheder/stat/ERST/Indberetning_af_brud_paa_sikkerhed#tab5
+
+Årsag til hændelsen / hvad er der sket
+Beskriv hændelsen
+
+Hvor fandt hændelsen fysisk sted
+Adresse
+
+Samme som virksomheden
+Ved ikke
+Andet
+
+Skema til indberetning af sikkerhedshændelser
+
+2/7
+
+Skema til indberetning af sikkerhedshændelser
+Karakteren af sikkerhedsbruddet
+Angiv karakteren af hændelsen
+Tyveri, kopiering eller bortkomst af medie
+Hacking
+Malware (f.eks. virus, ransomware, spyware)
+Phishing
+DoS
+Eksponering af urigtige oplysninger
+Utilsigtet videregivelse
+Utilsigtet adgang
+Ved ikke
+Andet
+
+Involveret teknologi
+IT-udstyr
+Server (fx web, email, netværk)
+Personlig computer (fx bærbar, stationær, tablet)
+Mobiltelefon
+Lagerenhed (fx USB stick, SD kort, CD)
+Telenetværk
+Ved ikke
+Kommunikation
+Email
+SMS
+Internetbaseret (fx iMessage, Skype, WhatsApp, Signal)
+Sociale medier
+Browser
+Ved ikke
+Overførsel og lagring af data
+Cloud
+FTP
+Peer-to-peer (P2P)
+Ved ikke
+Andet
+
+Type af hændelse
+Er der sket uberettiget offentliggørelse/videregivelse af personoplysninger?
+Ja
+Nej
+Har der været uberettiget adgang til personoplysninger?
+Ja
+Nej
+Er der sket ændring af personoplysninger?
+Ja
+Nej
+Er der sket tilintetgørelse af personoplysninger?
+Ja
+Nej
+Er der sket tab af personoplysninger?
+Ja
+Nej
+Yderligere oplysninger
+
+Skema til indberetning af sikkerhedshændelser
+
+3/7
+
+Skema til indberetning af sikkerhedshændelser
+Type af personoplysninger, der er berørt af hændelsen
+Hvilke personoplysninger er berørt af hændelsen? – Sæt kryds ud for ét eller flere af følgende valgmuligheder
+Navn
+Fødselsdato
+Kontaktoplysninger
+Personnummer (cpr-nr.)
+Økonomiske forhold
+Lokationsdata
+Strafbare forhold
+Betalingsoplysninger (kreditkort mv.)
+IP-adresse
+Race
+Etnicitet
+Politisk tilhørsforhold
+Religiøs eller filosofisk overbevisning
+Fagforeningsmæssigt tilhørsforhold
+Seksuelle forhold eller orientering
+Helbredsoplysninger
+Genetiske data
+Biometriske data
+Endnu uvist
+Andet
+
+Tidslinje
+Dato og tidspunkt for hændelsens start
+Jeg kender det præcise tidspunkt for hændelsens start
+Andet
+Ved ikke
+Hvad skete der på dette tidspunkt?
+
+Dato og tidspunkt for hændelsens afslutning
+Jeg kender det præcise tidspunkt for hændelsens afslutning
+Andet
+Er ikke afsluttet
+Ved ikke
+Hvad skete der på dette tidspunkt?
+
+Dato og tidspunkt for hændelsens konstatering
+Jeg kender det præcise tidspunkt for hændelsens konstatering
+Andet
+Ved ikke
+
+Hvad skete der på dette tidspunkt?
+
+Angiv sammenlagt varighed af hændelsen
+
+Er der modtaget underretning om hændelsen fra en databehandler eller udbyder af digitale tjenester?
+Ja
+Nej
+Ved ikke
+
+Skema til indberetning af sikkerhedshændelser
+
+4/7
+
+Skema til indberetning af sikkerhedshændelser
+Øvrige involverede i hændelsen (databehandlere, underleverandører, mv.)
+Er der involveret databehandlere eller lignende?
+Ja
+Nej
+Ved ikke
+
+Databeskyttelsesrådgiver
+Er der udpeget en databeskyttelsesrådgiver?
+Ja
+Nej
+Ved ikke
+
+Omfang
+Angiv hvilke personer, der har været berørt af hændelsen – sæt kryds ud for ét eller flere af følgende valgmuligheder
+
+Medarbejdere
+Brugere
+Abonnenter
+Elever
+Kunder
+Patienter
+Mindreårige (under 18 år)
+Borgere
+Juridiske personer (virksomheder / organisationer)
+Andre
+Endnu uvist
+
+Angiv samlet antal
+
+Er antallet et skøn/overslag?
+Ja
+Nej
+Øvrige oplysninger om omfanget
+
+Grænseoverskridende hændelser
+Omfatter hændelsen behandling af personoplysninger, der udføres i flere EU/EØS lande?
+Ja
+Nej
+Påvirker hændelsen/kan hændelsen påvirke personer i mere end et EU/EØS land?
+Ja
+Nej
+Vurderes hændelsen at have væsentlige konsekvenser for tjenester i andre EU- eller EØS- lande?
+Ja
+Nej
+
+Skema til indberetning af sikkerhedshændelser
+
+5/7
+
+Skema til indberetning af sikkerhedshændelser
+Konsekvenser
+
+Sandsynlige konsekvenser af hændelsen for hhv. personer, virksomheder og tjenester
+Brud på fortrolighed
+Videregivelse af større mængde oplysninger end nødvendigt
+Videregivelse af oplysninger, som ikke er omfattet af de berørtes udtrykkelige samtykke
+Utilsigtet videregivelse af oplysninger, der er linket til andre oplysninger om de berørte
+Oplysningerne kan blive misbrugt til andre eller ulovlige formål
+Andre konsekvenser som følge af brud på fortrolighed
+Ingen af ovenstående
+Brud på integritet
+Oplysningerne kan være blevet ændret og brugt, selvom oplysningerne ikke længere er valide
+Oplysningerne kan være blevet omdannet til andre valide data, og brugt til andre formål
+Andre konsekvenser som følge af brud på integritet
+Ingen af ovenstående
+Brud på tilgængeligheden
+Manglende evne til at yde afgørende hjælp til dem som er berørt af hændelsen
+Ændringer i muligheden for at yde afgørende hjælp til de berørte
+Manglende kontinuitet
+Andre konsekvenser som følge af brud på tilgængeligheden
+Ingen af ovenstående
+Brud på autenticiteten
+Manglende evne til at sikre tilliden til, at en meddelelse stammer fra den afsender, den påstås at være fra
+Andre konsekvenser som følge af brud på autenticiteten
+Ingen af ovenstående
+Fysisk, materiel eller immateriel skade med betydelige konsekvenser for den berørte
+Mistet kontrol over egne oplysninger
+Begrænset i sine rettigheder
+Udsat for diskrimination
+Udsat for identitetstyveri
+Udsat for bedrageri
+Lidt økonomisk tab
+Skade på omdømme
+Andre konsekvenser for de berørte
+Ingen af ovenstående
+Uddybende oplysninger
+
+Håndtering
+
+Foranstaltninger af teknisk og organisatorisk karakter, der er truffet på baggrund af hændelsen
+Foranstaltninger, der er truffet for at standse bruddet
+
+Angiv dato
+04/11/2019
+Hvem har foretaget foranstaltningerne?
+Indberetter
+Databehandler
+Andre
+Foranstaltninger, der er truffet mhp. at begrænse den skade, som den/de registrerede evt. har lidt
+
+Skema til indberetning af sikkerhedshændelser
+
+6/7
+
+Skema til indberetning af sikkerhedshændelser
+Angiv dato
+04/11/2019
+Hvem har foretaget foranstaltningerne?
+Indberetter
+Databehandler
+Andre
+Foranstaltninger, der foreslås truffet
+
+Underretning
+Kommunikation med de berørte personer / kunder
+Er de berørte personer blevet underrettet?
+Ikke endnu, men underretning vil ske
+Nej, underretning vil ikke ske
+Det er endnu ikke besluttet
+Ja delvist
+Ja, alle er underrettet
+Hvornår blev underretning givet?
+14/11/2019
+Ved ikke
+Hvilken metode er eller vil blive anvendt til at underrette de berørte personer (f.eks. e-mail, fysisk brev, den dataansvarliges hjemmeside etc.)?
+E-mail
+Fysisk brev
+Telefonisk / personligt
+Hjemmeside/Web
+SMS
+E-boks
+Indhold af underretningen til de berørte personer
+
+Eventuel vedhæftning
+Underretning om sikkerhedshændelse - 4. nov 2019.docx 374 KB
+Er offentligheden blevet informeret om hændelsen?
+Ja
+Nej
+
+Skema til indberetning af sikkerhedshændelser
+
+7/7
+
+

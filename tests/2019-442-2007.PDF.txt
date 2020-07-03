@@ -1,0 +1,394 @@
+Skema til indberetning af sikkerhedshændelser
+
+Identifikation
+Tidspunkt for indberetningen
+fredag marts 15, 2019 13:55:01
+
+Referencenummer
+b5c9d1a5cb05b4a765be96c87342b6fddde7d038
+
+Anmelderinformation
+Anmelders navn
+#### ########
+Anmelders UID
+CVR:#########:########
+
+Identifikation af sikkerhedshændelsen
+Er dette en uddybning af en tidligere anmeldelse?
+Ja
+Nej
+
+Oplysninger om indberetter
+CVR
+44023911
+Myndighedens/virksomhedens navn
+GREVE KOMMUNE
+Afdeling
+
+Adresse
+Rådhusholmen 10, 2670 Greve
+Kontaktperson (navn og titel)
+#### ######
+E-mail på kontaktperson
+###########
+Telefonnummer på kontaktperson
+########
+Er udenlandsk telefonnummer
+
+Indberetning på en andens vegne
+Indberetter du på en andens vegne? (Eksempelvis den dataansvarlige)
+Ja
+Nej
+
+Skema til indberetning af sikkerhedshændelser
+
+1/8
+
+Skema til indberetning af sikkerhedshændelser
+Valg af modtager
+Hvilken hændelse ønsker du at indberette?
+Hændelse vedrørende den finansielle sektor
+Hændelse vedrørende persondata
+Hændelse vedrørende samfundskritisk infrastruktur
+Frivillig indberetning af hændelser i øvrige sektorer til Center for Cybersikkerhed
+Større brud på it-sikkerheden i en offentlig myndighed
+
+Hændelse vedrørende persondata
+Hvem ønsker du at indberette til?
+Jeg ønsker at indberette til Datatilsynet
+Jeg ønsker at indberette til Erhvervsstyrelsen, da jeg er et teleselskab, fiberselskab, internetudbyder eller lignende udbyder af en offentligt tilgængelige elektronisk
+kommunikationstjenester og hændelsen relaterer sig til udbuddet af denne tjeneste
+
+Valgte myndigheder
+Ud fra ovenstående valg vil din indberetning blive sendt til følgende:
+Datatilsynet
+
+Når du indberetter en sikkerhedshændelse, angiver du selv, hvilke myndigheder, der skal modtage din
+indberetning. Du kan læse mere om disse myndigheders behandling af dine oplysninger på dette link:
+https://indberet.virk.dk/myndigheder/stat/ERST/Indberetning_af_brud_paa_sikkerhed#tab5
+
+Årsag til hændelsen / hvad er der sket
+Beskriv hændelsen
+En kommunal medarbejder har ifm med et jobskifte mellem to kommuner ved en fejl ikke fået frataget sine rettigheder i Aula til at se data i den kommune, som
+medarbejderen har forladt. Medarbejderen har herved set data på syv personprofiler i den tidligere kommune.
+Logdata viser herudover, at yderligere 19 kommunale medarbejdere i 15 andre kommuner har haft adgang til data vedr. 47 personer. Denne adgang kan have været
+uberettiget
+
+Hvor fandt hændelsen fysisk sted
+Adresse
+Netcompany, Industriparken 20A, 2750 Ballerup.
+Samme som virksomheden
+Ved ikke
+Andet
+I alt 17 kommuner er berørt.
+
+Karakteren af sikkerhedsbruddet
+
+Skema til indberetning af sikkerhedshændelser
+
+2/8
+
+Skema til indberetning af sikkerhedshændelser
+Angiv karakteren af hændelsen
+Tyveri, kopiering eller bortkomst af medie
+Hacking
+Malware (f.eks. virus, ransomware, spyware)
+Phishing
+DoS
+Eksponering af urigtige oplysninger
+Utilsigtet videregivelse
+Utilsigtet adgang
+Ved ikke
+Andet
+
+Involveret teknologi
+IT-udstyr
+Server (fx web, email, netværk)
+Personlig computer (fx bærbar, stationær, tablet)
+Mobiltelefon
+Lagerenhed (fx USB stick, SD kort, CD)
+Telenetværk
+Ved ikke
+Kommunikation
+Email
+SMS
+Internetbaseret (fx iMessage, Skype, WhatsApp, Signal)
+Sociale medier
+Browser
+Ved ikke
+Overførsel og lagring af data
+Cloud
+FTP
+Peer-to-peer (P2P)
+Ved ikke
+Andet
+Batchjob som ved en fejl ikke er blevet kørt
+
+Type af hændelse
+Er der sket uberettiget offentliggørelse/videregivelse af personoplysninger?
+Ja
+Nej
+Har der været uberettiget adgang til personoplysninger?
+Ja
+Nej
+Er der sket ændring af personoplysninger?
+Ja
+Nej
+Er der sket tilintetgørelse af personoplysninger?
+Ja
+Nej
+Er der sket tab af personoplysninger?
+Ja
+Nej
+Yderligere oplysninger
+Medarbejdere har haft adgang til personoplysninger, som de pågældende formentlig ikke burde have haft adgang til. Det er uvist, om disse medarbejdere har haft
+uberettiget adgang til personoplysninger, fordi det ikke vides, hvornår rettigheden skulle have været fjernet. Fjernelse af rettigheder sker igennem UniLogin, der ikke
+udstiller dato for fjernelse af rettigheder. Derfor er vi ikke i stand til at fastslå, om adgang har været berettiget eller uberettiget.
+
+Skema til indberetning af sikkerhedshændelser
+
+3/8
+
+Skema til indberetning af sikkerhedshændelser
+Type af personoplysninger, der er berørt af hændelsen
+Hvilke personoplysninger er berørt af hændelsen? – Sæt kryds ud for ét eller flere af følgende valgmuligheder
+Navn
+Fødselsdato
+Kontaktoplysninger
+Personnummer (cpr-nr.)
+Økonomiske forhold
+Lokationsdata
+Strafbare forhold
+Betalingsoplysninger (kreditkort mv.)
+IP-adresse
+Race
+Etnicitet
+Politisk tilhørsforhold
+Religiøs eller filosofisk overbevisning
+Fagforeningsmæssigt tilhørsforhold
+Seksuelle forhold eller orientering
+Helbredsoplysninger
+Genetiske data
+Biometriske data
+Endnu uvist
+Andet
+Beskriv
+Relation mellem elev og forældre
+
+Tidslinje
+Dato og tidspunkt for hændelsens start
+Jeg kender det præcise tidspunkt for hændelsens start
+Andet
+Ved ikke
+Hvad skete der på dette tidspunkt?
+Ved ikke, formentligt medio januar 2019
+
+Dato og tidspunkt for hændelsens afslutning
+Jeg kender det præcise tidspunkt for hændelsens afslutning
+Andet
+Er ikke afsluttet
+Ved ikke
+Dato og tidspunkt
+torsdag marts 14, 2019 08:00:00
+Hvad skete der på dette tidspunkt?
+hændelsen blev opdaget
+
+Dato og tidspunkt for hændelsens konstatering
+Jeg kender det præcise tidspunkt for hændelsens konstatering
+Andet
+Ved ikke
+Dato og tidspunkt
+onsdag marts 13, 2019 11:13:00
+
+Hvad skete der på dette tidspunkt?
+Medarbejder i Stevns Kommune sendte en mail til kommunens DPO, som herefter videresendte mailen til KOMBIT.
+Skema til indberetning af sikkerhedshændelser
+
+4/8
+
+Skema til indberetning af sikkerhedshændelser
+Angiv sammenlagt varighed af hændelsen
+ca.2 mdr
+Er der modtaget underretning om hændelsen fra en databehandler eller udbyder af digitale tjenester?
+Ja
+Nej
+Ved ikke
+
+Øvrige involverede i hændelsen (databehandlere, underleverandører, mv.)
+Er der involveret databehandlere eller lignende?
+Ja
+Nej
+Ved ikke
+For at tilføje flere databehandlere, klik da på
+
+Angiv type
+Databehandler efter Databeskyttelsesforordningen
+CVR
+19435075
+Databehandlerens navn
+KOMBIT A/S
+Adresse
+Halfdansgade 8, 2300 København S
+Kontaktperson hos databehandleren
+DPO ######### ####
+E-mail på kontaktperson
+################
+Telefonnummer på kontaktperson
+###########
+Er udenlandsk telefonnummer
+Angiv type
+Underleverandør
+CVR
+148114833
+Databehandlerens navn
+Netcompany IT and Business Consulting A/S
+Adresse
+Grønningen 17, 1270 København K
+Kontaktperson hos databehandleren
+######### ### #######
+E-mail på kontaktperson
+################
+Telefonnummer på kontaktperson
+###########
+Er udenlandsk telefonnummer
+
+Skema til indberetning af sikkerhedshændelser
+
+5/8
+
+Skema til indberetning af sikkerhedshændelser
+Databeskyttelsesrådgiver
+Er der udpeget en databeskyttelsesrådgiver?
+Ja
+Nej
+Ved ikke
+Navn på evt. databeskyttelsesrådgiver (DPO)
+Bech-Bruun Advokatpartnerselskab
+E-mail på DPO
+###############
+Telefonnummer på DPO
+########
+Er udenlandsk telefonnummer
+Evt. andre aktører involveret i håndteringen af hændelsen (f.eks. Center for Cybersikkerhed, politiet etc.)
+
+Omfang
+Angiv hvilke personer, der har været berørt af hændelsen – sæt kryds ud for ét eller flere af følgende valgmuligheder
+
+Medarbejdere
+Brugere
+Abonnenter
+Elever
+Kunder
+Patienter
+Mindreårige (under 18 år)
+Borgere
+Juridiske personer (virksomheder / organisationer)
+Andre
+Beskriv nærmere
+forældre
+Endnu uvist
+
+Angiv samlet antal
+54
+Er antallet et skøn/overslag?
+Ja
+Nej
+Øvrige oplysninger om omfanget
+
+Grænseoverskridende hændelser
+Omfatter hændelsen behandling af personoplysninger, der udføres i flere EU/EØS lande?
+Ja
+Nej
+Påvirker hændelsen/kan hændelsen påvirke personer i mere end et EU/EØS land?
+Ja
+Nej
+
+Skema til indberetning af sikkerhedshændelser
+
+6/8
+
+Skema til indberetning af sikkerhedshændelser
+Vurderes hændelsen at have væsentlige konsekvenser for tjenester i andre EU- eller EØS- lande?
+Ja
+Nej
+
+Konsekvenser
+
+Sandsynlige konsekvenser af hændelsen for hhv. personer, virksomheder og tjenester
+Brud på fortrolighed
+Videregivelse af større mængde oplysninger end nødvendigt
+Videregivelse af oplysninger, som ikke er omfattet af de berørtes udtrykkelige samtykke
+Utilsigtet videregivelse af oplysninger, der er linket til andre oplysninger om de berørte
+Oplysningerne kan blive misbrugt til andre eller ulovlige formål
+Andre konsekvenser som følge af brud på fortrolighed
+Ingen af ovenstående
+Brud på integritet
+Oplysningerne kan være blevet ændret og brugt, selvom oplysningerne ikke længere er valide
+Oplysningerne kan være blevet omdannet til andre valide data, og brugt til andre formål
+Andre konsekvenser som følge af brud på integritet
+Ingen af ovenstående
+Brud på tilgængeligheden
+Manglende evne til at yde afgørende hjælp til dem som er berørt af hændelsen
+Ændringer i muligheden for at yde afgørende hjælp til de berørte
+Manglende kontinuitet
+Andre konsekvenser som følge af brud på tilgængeligheden
+Ingen af ovenstående
+Brud på autenticiteten
+Manglende evne til at sikre tilliden til, at en meddelelse stammer fra den afsender, den påstås at være fra
+Andre konsekvenser som følge af brud på autenticiteten
+Ingen af ovenstående
+Fysisk, materiel eller immateriel skade med betydelige konsekvenser for den berørte
+Mistet kontrol over egne oplysninger
+Begrænset i sine rettigheder
+Udsat for diskrimination
+Udsat for identitetstyveri
+Udsat for bedrageri
+Lidt økonomisk tab
+Skade på omdømme
+Andre konsekvenser for de berørte
+Ingen af ovenstående
+Uddybende oplysninger
+det er pt ukendt hvad der har været adgang til det undersøges
+
+Håndtering
+
+Foranstaltninger af teknisk og organisatorisk karakter, der er truffet på baggrund af hændelsen
+Foranstaltninger, der er truffet for at standse bruddet
+Adgang for de berørte medarbejder blev fjernet straks efter vi blev bekendt med hændelsen. Proces for opdatering af rettigheder for brugerne af Aula er idriftsat.
+Angiv dato
+14.03.2019
+
+Skema til indberetning af sikkerhedshændelser
+
+7/8
+
+Skema til indberetning af sikkerhedshændelser
+Hvem har foretaget foranstaltningerne?
+Indberetter
+Databehandler
+Andre
+Andre
+Databehandlerens underleverandør, Netcompany.
+Foranstaltninger, der er truffet mhp. at begrænse den skade, som den/de registrerede evt. har lidt
+adgangen er lukket
+Angiv dato
+14.03.2019
+Hvem har foretaget foranstaltningerne?
+Indberetter
+Databehandler
+Andre
+
+Underretning
+Kommunikation med de berørte personer / kunder
+Er de berørte personer blevet underrettet?
+Ikke endnu, men underretning vil ske
+Nej, underretning vil ikke ske
+Det er endnu ikke besluttet
+Ja delvist
+Ja, alle er underrettet
+
+Skema til indberetning af sikkerhedshændelser
+
+8/8
+
+

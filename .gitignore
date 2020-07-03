@@ -1,1 +1,3 @@
 /target
+tests/extract2csv.exe
+tests/out.csv
