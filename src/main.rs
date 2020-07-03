@@ -67,7 +67,7 @@ fn main() -> io::Result<()> {
 fn simple_usecase_test() {
     let here = env::current_dir();
     let here = here.expect("Cannot get dir");
-    println!("You are here: {:?}", here);
+    println!("You are here : {:?}", here);
     fs::copy("target\\debug\\extract2csv.exe", "tests\\extract2csv.exe")
         .expect("Cannot copy program to test folder");
     env::set_current_dir("tests").expect("Cannot change directory to tests folder");
