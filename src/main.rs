@@ -64,7 +64,7 @@ fn main() -> io::Result<()> {
 }
 
 #[test]
-fn simple_usecase_test() {
+fn simple_usecase_test() {   
     let here = env::current_dir();
     let here = here.expect("Cannot get dir");
     println!("You are here  : {:?}", here);

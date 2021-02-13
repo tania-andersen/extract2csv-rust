@@ -29,7 +29,7 @@ Extract2csv can only read text files, but you can use command line tools such as
 
 On Linux and Windows with WSL, you can extract all pdf files in a folder with this command:
 ```sh
-for file in *.pdf; do pdftotext "$file"
+for file in *.pdf; do pdftotext "$file" "$file.txt"; done
 ```
 
 ## Java version 
